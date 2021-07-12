@@ -1,0 +1,13 @@
+[package]
+name = "color-reduction"
+version = "0.1.0"
+authors = ["Monology"]
+description = "A library to reduce the colors of an image to a specified set of colors."
+license-file = "LICENSE"
+homepage = "https://github.com/Monology/color-reduction"
+repository = "https://github.com/Monology/color-reduction"
+documentation = "https://docs.rs/color-reduction"
+edition = "2018"
+
+[dependencies]
+image = "0.23.14"
