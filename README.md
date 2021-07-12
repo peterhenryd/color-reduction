@@ -1,5 +1,5 @@
 # color-reduction
-![Crates.io](https://img.shields.io/crates/v/color-reduction)
+[![Crates.io](https://img.shields.io/crates/v/color-reduction)](https://crates.io/crates/color-reduction)
 
 A Rust library to reduce the colors of an image to a specified set of colors.
 
