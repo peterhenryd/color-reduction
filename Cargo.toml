@@ -1,6 +1,6 @@
 [package]
 name = "color-reduction"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Monology"]
 description = "A library to reduce the colors of an image to a specified set of colors."
 license = "MIT"
