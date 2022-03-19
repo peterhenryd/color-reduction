@@ -34,9 +34,7 @@ pub fn reduce_colors<T: GenericImage> (image: T, colors: &[Rgb<u8>]) -> RgbImage
                 let g = c.0[1] as i32 - color.0[1] as i32;
                 // Calculate the difference between the blue of the given color and pixel color.
                 let b = c.0[2] as i32 - color.0[2] as i32;
-                // Do something magical to combine all four differences into one similarity value.
-                // I don't really know how this works, but if someone does, please feel free to fork
-                // and change this comment.
+                // Calculate the distance between the colors in RGB space.
                 let s = r.pow(2) + g.pow(2) + b.pow(2);
 
                 // If the given color is more similar than the current most similar color, then
